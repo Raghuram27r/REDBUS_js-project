@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedBus Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href=""><img style="height: 70px;" src="https://www.giverefer.com/thumbnails/1680428066.png" alt="RedBus Logo" class="logo">
+                <a href=""><button class="nav1-button"><img height="40px" style="background-color: white;"><svg width="64px" height="50px" style="margin-top: -10px;" viewBox="-19.2 -19.2 230.40 230.40" xmlns="http://www.w3.org/2000/svg" fill="none" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M48.37 129.447c-2.52.318-6.952.92-9.286 1.239-2.193.318-4.387.455-6.581.773-1.587.318-2.054-.318-2.334-1.683-1.867-7.64-3.921-15.145-5.648-22.968C22.934 99.44 22 92.118 22 84.749c0-2.774.467-5.685 1.12-8.414.794-4.139 3.455-7.186 7.236-9.187 5.32-2.911 11.016-4.912 16.804-6.277 8.776-2.137 17.738-4.139 26.7-5.503 8.309-1.364 16.805-2.138 25.3-2.91 8.169-.592 16.338-1.092 24.506-1.092 8.776 0 17.458.59 26.234 1.091 3.127.137 5.648 2.001 7.842 4.275 4.248 4.458 6.582 9.779 8.495 15.6 2.988 9.188 4.248 18.83 3.595 28.472-.327 5.049-1.12 10.097-3.314 14.827-.327.773-.794 1.092-1.728 1.228-4.387.455-14.016 2.07-18.45 2.525m-25.46 3.086c-13.35 1.546-31.816 2.394-45.166 3.758" class="st1" style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:12;stroke-dasharray:none;stroke-opacity:1"></path><circle cx="61" cy="128.305" r="15" style="fill:none;stroke:#ffffff;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;paint-order:stroke fill markers"></circle><circle cx="131" cy="121" r="15" style="fill:none;stroke:#ffffff;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;paint-order:stroke fill markers"></circle></g></svg><br><span style="font-size: 12px ; display: flex; margin-top: -10px;margin-left: 5px;"><b>Bus Tickets</b></span></button></a> <br>
+            <a href=""><button class="nav2-button"><svg width="20px" height="20px" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M52.4172 129.945C154.767 124.431 299.051 80.9206 362.913 182.602C369.254 192.695 372.11 221.082 363.911 231.283C340.825 260.002 85.1022 258.994 38.4434 258.994" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M371.656 279.262C260.686 278.71 142.19 286.441 33.0469 281.78" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M264.29 133.538C247.656 199.764 297.805 187.344 346.025 180.575" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M240.21 132.188C251.965 213.876 84.6787 176.294 29 190.197" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M171.274 140.283C166.221 155.378 170.086 170.931 170.086 186.15" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M96.7925 144.33C93.1231 154.511 95.5446 187.149 95.6053 187.499" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M297.88 272.488C290.047 268.283 293.611 264.537 300.157 258.998" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M248.894 268.441C244.734 279.232 238.102 278.893 238.102 269.452" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M170.649 270.484C164.611 275.988 165.404 270.342 162.555 268.109" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M192.849 147.435C235.814 141.339 175.758 206.507 180.345 156.09" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M122.845 145.727C168.24 143.673 97.5794 208.069 111.894 156.911" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M54.5297 152.424C64.7101 161.561 44.2946 177.272 38.4434 158.364" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><br><span><b>Train Tickets</b></span></button></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#"><svg style="margin-left: -50px;" fill="#000000" width="15px" height="15px" viewBox="0 0 512 512" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M458.88,240.87h-3.49c-4.23-106.59-92.24-192-199.84-192s-195.61,85.41-199.84,192H53.12a18,18,0,0,0-18,18v108a18,18,0,0,0,18,18H77.33a72.12,72.12,0,0,0,71.57,64h56v6.25a8,8,0,0,0,8,8h42.67a8,8,0,0,0,8-8V426.6a8,8,0,0,0-8-8H212.88a8,8,0,0,0-8,8v6.28h-56a56.1,56.1,0,0,1-55.45-48h25a18,18,0,0,0,18-18v-108a18,18,0,0,0-18-18h-4c4.18-74.22,65.87-133.33,141.12-133.33s137,59.11,141.12,133.34h-3.12a18,18,0,0,0-18,18v108a18,18,0,0,0,18,18h65.33a18,18,0,0,0,18-18v-108A18,18,0,0,0,458.88,240.87Zm-238,193.73h26.67v12.53H220.88ZM120.45,258.86v108a2,2,0,0,1-2,2H53.12a2,2,0,0,1-2-2v-108a2,2,0,0,1,2-2h65.33A2,2,0,0,1,120.45,258.86ZM255.55,91.53c-84.07,0-153,66.28-157.15,149.33H71.73c4.21-97.76,85.05-176,183.82-176s179.61,78.24,183.82,176H412.7C408.51,157.81,339.62,91.53,255.55,91.53ZM460.88,366.87a2,2,0,0,1-2,2H393.55a2,2,0,0,1-2-2v-108a2,2,0,0,1,2-2h65.33a2,2,0,0,1,2,2Z"></path></g></svg><span>help</span></a></li>
+                <li><a href="#">English</a></li>
+            <div class="dv1">
+                <button class="nav4-button" onclick="totalmenu()"><svg width="15px" height="15px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" id="Layer_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="profile_x2C__person"> <g> <g> <g> <path d="M16,31C7.729,31,1,24.271,1,16S7.729,1,16,1s15,6.729,15,15S24.271,31,16,31z M16,2C8.28,2,2,8.28,2,16 s6.28,14,14,14s14-6.28,14-14S23.72,2,16,2z" fill="#263238"></path> </g> </g> </g> <g> <g id="team_3_"> <g> <g> <g> <g> <path d="M23.64,20.713l-4.762-1.652l-0.323-2.584c-0.215,0.307-0.523,0.546-0.924,0.671l0.293,2.345 c0.023,0.189,0.152,0.349,0.332,0.41l5.055,1.756c0.9,0.314,1.689,1.427,1.689,2.381v-0.007c0,0.276,0.224,0.5,0.5,0.5 c0.275,0,0.499-0.223,0.5-0.498C25.997,22.656,24.94,21.168,23.64,20.713z" fill="#263238"></path> </g> </g> </g> </g> <g> <g> <g> <g> <path d="M6.5,24.532c-0.276,0-0.5-0.224-0.5-0.5v0.007c0-1.379,1.059-2.871,2.359-3.326l4.762-1.641 l0.012-0.28c0.034-0.274,0.289-0.465,0.559-0.434c0.273,0.034,0.468,0.284,0.434,0.559l-0.051,0.589 c-0.023,0.189-0.153,0.348-0.333,0.41l-5.054,1.742C7.789,21.973,7,23.086,7,24.039v-0.007C7,24.309,6.776,24.532,6.5,24.532 z" fill="#263238"></path> </g> </g> </g> </g> <g> <g> <g> <g> <g> <path d="M16,18.039c-2.779,0-4.192-1.844-4.201-6.469c-0.002-1.174,0.123-2.363,1.227-3.469 C13.729,7.396,14.729,7.039,16,7.039s2.271,0.357,2.975,1.063c1.104,1.105,1.229,2.295,1.227,3.469 C20.192,16.195,18.779,18.039,16,18.039z M16,8.039c-1.009,0-1.75,0.252-2.267,0.769c-0.632,0.633-0.938,1.2-0.935,2.761 c0.008,4.018,1.055,5.471,3.201,5.471s3.193-1.453,3.201-5.471c0.003-1.561-0.303-2.128-0.935-2.761 C17.75,8.291,17.009,8.039,16,8.039z" fill="#263238"></path> </g> </g> </g> </g> </g> </g> </g> </g> </g></svg><span>Account</span></button>
+             <div class="menu" id="ac-menu">
+                <a href="">Cancel Ticket</a>
+                <a href="">Change Travel Date</a>
+                <a href="">Show My Tickets</a>
+                <a href="">Emails/SMS</a>
+                <a href="">Login/Signup</a>
+               </div>
+            </div>
+        </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+    </header>
+    
+    <section class="banner">
+        <h1>India's No. 1 Online Bus Ticket Booking Site</h1>
+    
+    <section class="booking-section">
+        <form class="booking-form">
+            <input type="text" placeholder="From" required>
+            <input type="text" placeholder="To" required>
+            <input type="date" required>
+            <button type="submit">Search Buses</button>
+        </form>
+    </section>
+    </section>
+    <div class="carousel-container">
+        <!-- <button class="prev" onclick="moveSlide(-1)">❮</button>
+        <button class="next" onclick="moveSlide(1)">></button> -->
+        <div class="carousel">
+            <div class="offer-box box1"><img height="60px" width="60px" src="./off1-removebg-preview.png" alt=""><span>Save up to ₹250 on Bus Tickets</span>
+                <br><br><button onclick="navigateToOfferPage()">Claim Offer</button>
+            </div>
+            <div class="offer-box box2"><img height="70px" width="90px" src="./off2-removebg-preview.png" alt=""><span>Save up to ₹300 on All Routes</span>
+                <button onclick="navigateToOfferPage()">Claim Offer</button>
+            </div>
+            <div class="offer-box box3"><img height="70px" width="70px" src="./off4-removebg-preview.png" alt=""><span>Special ₹300 Discount for AP, TS</span>
+                <button onclick="navigateToOfferPage()">Claim Offer</button>
+            </div>
+            <div class="offer-box box4"><img height="70px" width="70px" src="./0ff6-removebg-preview.png" alt=""><span>Exclusive Bank Offers Available</span>
+                <button onclick="navigateToOfferPage()">Claim Offer</button>
+            </div>
+            <div class="offer-box box3"><img height="70px" width="80px" src="./off5-removebg-preview.png" alt=""><span>Exclusive Bank Offers Available</span>
+               <button onclick="navigateToOfferPage()">Claim Offer</button></div>
+            <div class="offer-box box1"><img height="70px" width="70px" src="./off4-removebg-preview.png" alt=""><span>Exclusive Bank Offers Available</span>
+                <button onclick="navigateToOfferPage()">Claim Offer</button>
+            </div>
+        </div>
+        <button class="next" onclick="moveSlide(1)">❯</button>
+    </div>
+    <div id="trainNow">
+        <div id="trainContent" class="trainMatter">
+            <p id="trainContentNow">
+            NOW,<b> GET MORE THAN <br>
+            JUST BUS</b> TICKETS WITH <br>
+            REDBUS!
+            </p>
+            <div id="trainLogo">
+                <img id="trainImgLogo" src="https://s3.rdbuz.com/web/images/layout/rail_vertical.svg" alt="">
+                <span id="trainTickets">&nbsp;&nbsp;Train Tickets</span>
+            </div>
+
+            <p id="paragraph">Book IRCTC Train Tickets on redRail simple & superfast booking <br>process with no service fee + no payment gateway charge.
+            </p>
+            <div id="details">
+                <div class="descriptionDiv">
+                <img src="https://s3.rdbuz.com/web/images/homeV2/AboutUs/railAuthorized.png" alt="">
+                <p id="description">Authorised IRCTC Partner</p>
+            </div>
+            <div class="descriptionDiv">
+                <img src="https://s2.rdbuz.com/web/images/homeV2/AboutUs/railHasslefree.svg" alt="">
+                <p id="description">Instant refunds on UPI payments</p>
+            </div>
+            <div class="descriptionDiv">
+                <img src="https://s1.rdbuz.com/web/images/homeV2/AboutUs/railrefunds.svg" alt="">
+                <p id="description">Hassle-free customer support</p>
+            </div>
+            <a href="https://www.redbus.in/railways"><button id="bookTrainTickets">Book Train Tickets ➙</button>
+            </a>
+
+            </div>
+
+        </div>
+
+        <div id="trainImgDiv" class="trainMatter">
+            <img id="trainImg" src="https://s3.rdbuz.com/web/images/homeV2/AboutUs/railPop.webp" alt="">
+        </div>
+       </div>
+
+       <div id="enjoyApp">
+        <p id="enjoyTheApp">ENJOY THE APP!</p>
+        <div id="enjoyDivChild">
+        <div id="rating">
+            <div id="tickMainDiv">
+            <div id="ticksDiv">
+                <img class="check" src="https://s3.rdbuz.com/web/images/homeV2/appinstall/tick.svg" alt="">
+                <p class="checkText">Quick access</p>
+            </div>
+
+            <div id="ticksDiv2">
+                <img class="check" src="https://s3.rdbuz.com/web/images/homeV2/appinstall/tick.svg" alt="">
+                <p class="checkText">Superior live tracking
+                </p>
+            </div>
+        </div>
+</body>
+</html>
